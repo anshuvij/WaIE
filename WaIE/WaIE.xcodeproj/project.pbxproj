@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		4B698DBC29C584B200D0DB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DBB29C584B200D0DB34 /* AppDelegate.swift */; };
 		4B698DBE29C584B200D0DB34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DBD29C584B200D0DB34 /* SceneDelegate.swift */; };
-		4B698DC029C584B200D0DB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DBF29C584B200D0DB34 /* ViewController.swift */; };
+		4B698DC029C584B200D0DB34 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DBF29C584B200D0DB34 /* MainViewController.swift */; };
 		4B698DC329C584B200D0DB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B698DC129C584B200D0DB34 /* Main.storyboard */; };
 		4B698DC529C584B400D0DB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B698DC429C584B400D0DB34 /* Assets.xcassets */; };
 		4B698DC829C584B400D0DB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B698DC629C584B400D0DB34 /* LaunchScreen.storyboard */; };
 		4B698DD329C584B400D0DB34 /* WaIETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DD229C584B400D0DB34 /* WaIETests.swift */; };
 		4B698DDD29C584B400D0DB34 /* WaIEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DDC29C584B400D0DB34 /* WaIEUITests.swift */; };
 		4B698DDF29C584B400D0DB34 /* WaIEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DDE29C584B400D0DB34 /* WaIEUITestsLaunchTests.swift */; };
+		4B698DEF29C5855600D0DB34 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DEE29C5855600D0DB34 /* NetworkManager.swift */; };
+		4B698DF129C5859A00D0DB34 /* OfflineCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DF029C5859A00D0DB34 /* OfflineCacher.swift */; };
+		4B698DF329C585C000D0DB34 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DF229C585C000D0DB34 /* Reachability.swift */; };
+		4B698DF529C5864900D0DB34 /* AstronomyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DF429C5864900D0DB34 /* AstronomyModel.swift */; };
+		4B698DF729C586A700D0DB34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DF629C586A700D0DB34 /* Constants.swift */; };
+		4B698DFB29C588B300D0DB34 /* ImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DFA29C588B300D0DB34 /* ImageView+Extension.swift */; };
+		4B698DFD29C5891E00D0DB34 /* AstronomyImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DFC29C5891E00D0DB34 /* AstronomyImageData.swift */; };
+		4B698E0029C5897A00D0DB34 /* AstronomyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698DFF29C5897A00D0DB34 /* AstronomyViewModel.swift */; };
+		4B698E0229C58B2100D0DB34 /* AstronomyDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698E0129C58B2100D0DB34 /* AstronomyDataViewModel.swift */; };
+		4B698E0529C5958900D0DB34 /* FullScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698E0329C5958900D0DB34 /* FullScreenVC.swift */; };
+		4B698E0629C5958900D0DB34 /* FullScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B698E0429C5958900D0DB34 /* FullScreenVC.xib */; };
+		4B698E0929C5B59B00D0DB34 /* AstronomyViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B698E0829C5B59B00D0DB34 /* AstronomyViewService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +51,7 @@
 		4B698DB829C584B200D0DB34 /* WaIE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaIE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B698DBB29C584B200D0DB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B698DBD29C584B200D0DB34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B698DBF29C584B200D0DB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B698DBF29C584B200D0DB34 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4B698DC229C584B200D0DB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B698DC429C584B400D0DB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B698DC729C584B400D0DB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		4B698DD829C584B400D0DB34 /* WaIEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaIEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B698DDC29C584B400D0DB34 /* WaIEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaIEUITests.swift; sourceTree = "<group>"; };
 		4B698DDE29C584B400D0DB34 /* WaIEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaIEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B698DEE29C5855600D0DB34 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4B698DF029C5859A00D0DB34 /* OfflineCacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineCacher.swift; sourceTree = "<group>"; };
+		4B698DF229C585C000D0DB34 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		4B698DF429C5864900D0DB34 /* AstronomyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyModel.swift; sourceTree = "<group>"; };
+		4B698DF629C586A700D0DB34 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4B698DFA29C588B300D0DB34 /* ImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Extension.swift"; sourceTree = "<group>"; };
+		4B698DFC29C5891E00D0DB34 /* AstronomyImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyImageData.swift; sourceTree = "<group>"; };
+		4B698DFF29C5897A00D0DB34 /* AstronomyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyViewModel.swift; sourceTree = "<group>"; };
+		4B698E0129C58B2100D0DB34 /* AstronomyDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AstronomyDataViewModel.swift; path = "../../../../../../C++Course/AstronomyDataViewModel.swift"; sourceTree = "<group>"; };
+		4B698E0329C5958900D0DB34 /* FullScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenVC.swift; sourceTree = "<group>"; };
+		4B698E0429C5958900D0DB34 /* FullScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FullScreenVC.xib; sourceTree = "<group>"; };
+		4B698E0829C5B59B00D0DB34 /* AstronomyViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyViewService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +123,13 @@
 		4B698DBA29C584B200D0DB34 /* WaIE */ = {
 			isa = PBXGroup;
 			children = (
+				4B698E0729C5B58200D0DB34 /* ViewService */,
+				4B698DFE29C5896900D0DB34 /* ViewModel */,
+				4B698DF829C5888C00D0DB34 /* Controller */,
+				4B698DED29C5854900D0DB34 /* Utils */,
+				4B698DEB29C5851F00D0DB34 /* Model */,
 				4B698DBB29C584B200D0DB34 /* AppDelegate.swift */,
 				4B698DBD29C584B200D0DB34 /* SceneDelegate.swift */,
-				4B698DBF29C584B200D0DB34 /* ViewController.swift */,
 				4B698DC129C584B200D0DB34 /* Main.storyboard */,
 				4B698DC429C584B400D0DB34 /* Assets.xcassets */,
 				4B698DC629C584B400D0DB34 /* LaunchScreen.storyboard */,
@@ -125,6 +153,62 @@
 				4B698DDE29C584B400D0DB34 /* WaIEUITestsLaunchTests.swift */,
 			);
 			path = WaIEUITests;
+			sourceTree = "<group>";
+		};
+		4B698DEB29C5851F00D0DB34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B698DF429C5864900D0DB34 /* AstronomyModel.swift */,
+				4B698DFC29C5891E00D0DB34 /* AstronomyImageData.swift */,
+				4B698E0129C58B2100D0DB34 /* AstronomyDataViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B698DED29C5854900D0DB34 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4B698DF929C5889F00D0DB34 /* Extension */,
+				4B698DEE29C5855600D0DB34 /* NetworkManager.swift */,
+				4B698DF029C5859A00D0DB34 /* OfflineCacher.swift */,
+				4B698DF229C585C000D0DB34 /* Reachability.swift */,
+				4B698DF629C586A700D0DB34 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4B698DF829C5888C00D0DB34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B698DBF29C584B200D0DB34 /* MainViewController.swift */,
+				4B698E0329C5958900D0DB34 /* FullScreenVC.swift */,
+				4B698E0429C5958900D0DB34 /* FullScreenVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B698DF929C5889F00D0DB34 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B698DFA29C588B300D0DB34 /* ImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4B698DFE29C5896900D0DB34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B698DFF29C5897A00D0DB34 /* AstronomyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B698E0729C5B58200D0DB34 /* ViewService */ = {
+			isa = PBXGroup;
+			children = (
+				4B698E0829C5B59B00D0DB34 /* AstronomyViewService.swift */,
+			);
+			path = ViewService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B698DC829C584B400D0DB34 /* LaunchScreen.storyboard in Resources */,
+				4B698E0629C5958900D0DB34 /* FullScreenVC.xib in Resources */,
 				4B698DC529C584B400D0DB34 /* Assets.xcassets in Resources */,
 				4B698DC329C584B200D0DB34 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +343,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B698DC029C584B200D0DB34 /* ViewController.swift in Sources */,
+				4B698DEF29C5855600D0DB34 /* NetworkManager.swift in Sources */,
+				4B698DC029C584B200D0DB34 /* MainViewController.swift in Sources */,
+				4B698E0529C5958900D0DB34 /* FullScreenVC.swift in Sources */,
+				4B698DF529C5864900D0DB34 /* AstronomyModel.swift in Sources */,
+				4B698DF329C585C000D0DB34 /* Reachability.swift in Sources */,
+				4B698DFD29C5891E00D0DB34 /* AstronomyImageData.swift in Sources */,
+				4B698E0029C5897A00D0DB34 /* AstronomyViewModel.swift in Sources */,
+				4B698DFB29C588B300D0DB34 /* ImageView+Extension.swift in Sources */,
+				4B698DF129C5859A00D0DB34 /* OfflineCacher.swift in Sources */,
+				4B698E0929C5B59B00D0DB34 /* AstronomyViewService.swift in Sources */,
 				4B698DBC29C584B200D0DB34 /* AppDelegate.swift in Sources */,
+				4B698E0229C58B2100D0DB34 /* AstronomyDataViewModel.swift in Sources */,
 				4B698DBE29C584B200D0DB34 /* SceneDelegate.swift in Sources */,
+				4B698DF729C586A700D0DB34 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
