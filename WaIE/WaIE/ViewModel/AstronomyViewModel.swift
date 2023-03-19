@@ -7,7 +7,7 @@
 
 import Foundation
 protocol AstronomyProtocol {
-    func requestTodayImages()
+    func requestTodayImages(isOnlineMode : Bool)
 }
 
 class AstronomyViewModel: AstronomyProtocol {
@@ -26,9 +26,9 @@ class AstronomyViewModel: AstronomyProtocol {
         self.databaseHandler = databaseHandler
     }
     
-    func requestTodayImages() {
+    func requestTodayImages(isOnlineMode : Bool) {
         
-        if Reachability.isConnectedToNetwork() {
+        if isOnlineMode == true {
             serviceHandler.fetchImageData { [weak self] result in
                 guard let self = self else { return }
                 switch result {

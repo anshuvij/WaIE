@@ -8,12 +8,39 @@
 import XCTest
 @testable import WaIE
 
-final class WaIETests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+ class WaIETests: XCTestCase {
+     private var astronomyVM : AstronomyViewModel!
+    override func setUp() {
+        self.astronomyVM = AstronomyViewModel()
+       
+        
     }
 
+    func test_should_have_valid_values_in_online_mode() {
+        
+        astronomyVM.requestTodayImages(isOnlineMode: true)
+        astronomyVM?.reloadOnData = { [weak self] in
+            
+            guard let self = self else { return }
+            XCTAssertNotNil(self.astronomyVM.astronomyDataViewModel?.title)
+            
+            
+        }
+    }
+     
+     func test_should_have_valid_values_in_offline_mode() {
+         
+         //only test this when app is first launched in offline mode, this shows offline mode status
+         astronomyVM.requestTodayImages(isOnlineMode: false)
+         astronomyVM.networkOffline = {[weak self] result in
+             guard let self = self else { return }
+             if self.astronomyVM.astronomyDataViewModel?.title.count ?? 0 == 0 {
+                 XCTAssertEqual(result, CustomError.Offline)
+             }
+         }
+     }
+      
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
@@ -33,4 +60,22 @@ final class WaIETests: XCTestCase {
         }
     }
 
+}
+
+class OfflineTest : WaIETests {
+    private var astronomyVM : AstronomyViewModel!
+    override func setUp()  {
+        super.setUp()
+        test_makeDeviceOffline()
+    }
+    
+    func test_makeDeviceOffline() {
+        astronomyVM?.reloadOnData = { [weak self] in
+            
+            guard let self = self else { return }
+            XCTAssertNotNil(self.astronomyVM.astronomyDataViewModel?.title)
+            
+            
+        }
+    }
 }

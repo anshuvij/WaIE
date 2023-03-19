@@ -23,10 +23,17 @@ class MainViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        astronomyViewModel?.requestTodayImages()
+        
+        if Reachability.isConnectedToNetwork() {
+            astronomyViewModel?.requestTodayImages(isOnlineMode: true)
+        }
+        else {
+            astronomyViewModel?.requestTodayImages(isOnlineMode: false)
+        }
+        
     }
     
-    func setupUI() {
+   private func setupUI() {
         
         let tapGest = UITapGestureRecognizer(target: self, action: #selector(loadFullImage))
         imageView.addGestureRecognizer(tapGest)
@@ -38,6 +45,12 @@ class MainViewController: UIViewController {
         
         self.imageView.layer.cornerRadius = 4.0
         self.imageView.clipsToBounds = true
+        
+        handleCallbacks()
+     
+    }
+    
+    private func handleCallbacks() {
         
         astronomyViewModel = AstronomyViewModel()
         
@@ -65,7 +78,7 @@ class MainViewController: UIViewController {
         }
     }
     
-    func displayImageData() {
+    private func displayImageData() {
         let astronomyDataViewModel = astronomyViewModel?.astronomyDataViewModel
         if let astronomyDataViewModel = astronomyDataViewModel {
             self.titleText.text = astronomyDataViewModel.title
@@ -78,7 +91,7 @@ class MainViewController: UIViewController {
         }
     }
     
-    @objc func loadFullImage() {
+    @objc private func loadFullImage() {
         let vc = FullScreenVC()
         vc.url = imageUrl
         self.navigationController?.pushViewController(vc, animated: true)

@@ -7,134 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "33B037B0-7A2E-4F65-8B8C-806F0F813969"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WaIE/Controller/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "setupUI()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E575CA87-6899-4AFE-90AF-106BDB955609"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WaIE/Controller/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "setupUI()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B138A2DE-50F0-464F-B3CF-36C78642B7EB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WaIE/Controller/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "setupUI()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B138A2DE-50F0-464F-B3CF-36C78642B7EB - ef140cb9d06392e9"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "WaIE.MainViewController.setupUI() -&gt; ()"
-                  moduleName = "WaIE"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/Controller/MainViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "1360">
-               </Location>
-               <Location
-                  uuid = "B138A2DE-50F0-464F-B3CF-36C78642B7EB - d700a85a277c7475"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in WaIE.MainViewController.setupUI() -&gt; ()"
-                  moduleName = "WaIE"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/Controller/MainViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "148">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "17DC648E-DC15-4666-84F6-7F0800D4BD15"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "WaIE/Controller/MainViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
-            landmarkName = "setupUI()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "17DC648E-DC15-4666-84F6-7F0800D4BD15 - d700a85a277c7433"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in WaIE.MainViewController.setupUI() -&gt; ()"
-                  moduleName = "WaIE"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/Controller/MainViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "260">
-               </Location>
-               <Location
-                  uuid = "17DC648E-DC15-4666-84F6-7F0800D4BD15 - a2c622c355b9faae"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 () -&gt; () in WaIE.MainViewController.setupUI() -&gt; ()"
-                  moduleName = "WaIE"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/Controller/MainViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "0F99CF0A-D3ED-45DD-AD34-967EDFC25933"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -142,8 +14,8 @@
             filePath = "WaIE/Controller/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "displayImageData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,8 +30,8 @@
             filePath = "WaIE/Controller/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "displayImageData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -240,15 +112,15 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "55"
             endingLineNumber = "55"
-            landmarkName = "requestTodayImages()"
+            landmarkName = "requestTodayImages(isOnlineMode:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "980A16E3-CB61-4F07-81D8-8BDA05CF5C47 - d9f147f935de7a8c"
+                  uuid = "980A16E3-CB61-4F07-81D8-8BDA05CF5C47 - 88464132b25a008d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "WaIE.AstronomyViewModel.requestTodayImages() -&gt; ()"
+                  symbolName = "WaIE.AstronomyViewModel.requestTodayImages(isOnlineMode: Swift.Bool) -&gt; ()"
                   moduleName = "WaIE"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/ViewModel/AstronomyViewModel.swift"
@@ -256,14 +128,14 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "55"
                   endingLineNumber = "55"
-                  offsetFromSymbolStart = "256">
+                  offsetFromSymbolStart = "268">
                </Location>
                <Location
-                  uuid = "980A16E3-CB61-4F07-81D8-8BDA05CF5C47 - 6d86b1d9b3474c6d"
+                  uuid = "980A16E3-CB61-4F07-81D8-8BDA05CF5C47 - d964e4aff8b27683"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Result&lt;WaIE.AstronomyDataViewModel, WaIE.CustomError&gt;) -&gt; () in WaIE.AstronomyViewModel.requestTodayImages() -&gt; ()"
+                  symbolName = "closure #2 (Swift.Result&lt;WaIE.AstronomyDataViewModel, WaIE.CustomError&gt;) -&gt; () in WaIE.AstronomyViewModel.requestTodayImages(isOnlineMode: Swift.Bool) -&gt; ()"
                   moduleName = "WaIE"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/ViewModel/AstronomyViewModel.swift"
@@ -288,7 +160,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
             endingLineNumber = "59"
-            landmarkName = "requestTodayImages()"
+            landmarkName = "requestTodayImages(isOnlineMode:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -304,8 +176,56 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
             endingLineNumber = "62"
-            landmarkName = "requestTodayImages()"
+            landmarkName = "requestTodayImages(isOnlineMode:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D71E75C6-AE04-4816-838D-DAE292D870F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WaIE/ViewModel/AstronomyViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "requestTodayImages(isOnlineMode:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D71E75C6-AE04-4816-838D-DAE292D870F7 - 88464132b25a03fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WaIE.AstronomyViewModel.requestTodayImages(isOnlineMode: Swift.Bool) -&gt; ()"
+                  moduleName = "WaIE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/ViewModel/AstronomyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "D71E75C6-AE04-4816-838D-DAE292D870F7 - 11503b26b1409fff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;WaIE.AstronomyModel, WaIE.CustomError&gt;) -&gt; () in WaIE.AstronomyViewModel.requestTodayImages(isOnlineMode: Swift.Bool) -&gt; ()"
+                  moduleName = "WaIE"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anshuvij/Documents/My%20Apps/iOS_Examples/WaIE/WaIE/WaIE/ViewModel/AstronomyViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
